@@ -1,0 +1,22 @@
+<?php
+define('_IN_JOHNCMS', 1);
+$headmod = 'users';
+require ('../incfiles/core.php');
+$textl = 'Tiện ích';
+$mota = 'Tổng hợp các tiện ích hay cho bạn giúp bạn nhiều việc hơn.';
+require ('../incfiles/head.php');
+echo'<div class="main-xmenu">';
+echo'<div class="danhmuc">';
+echo'<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">';
+echo'<a itemprop="url" href="'.$home.'/home"><span itemprop="title">Trang Chủ</span></a> › ';
+echo'</span>';
+echo'<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">';
+echo'<a itemprop="url" href="'.$home.'/tien-ich"><span itemprop="title">Tiện ích</span></a>';
+echo'</span>';
+echo'</div>';
+echo'<div class="menu list-bottom"><img src="/icon/thayboi.png" alt="icon" style="vertical-align: -3px;"/> <a href="'.$home.'/thayboi/">Thầy Bói Vui Nhộn</a></div>';
+echo'<div class="menu list-bottom"><img src="/icon/youtube.png" alt="icon" style="vertical-align: -3px;"/> <a href="'.$home.'/tien-ich/download-youtube/">Tải Video Youtube</a></div>';
+echo'<div class="menu list-bottom"><img src="/icon/chuki.png" alt="icon" style="vertical-align: -3px;"/> <a href="'.$home.'/tien-ich/tao-chu-ki-online/">Tạo Chữ Kí Kute</a></div>';
+echo'<div class="menu"><img src="/icon/tinhyeu.png" alt="icon" style="vertical-align: -3px;"/> <a href="'.$home.'/tien-ich/may-do-tinh-yeu/">Máy Đo Tình Yêu Online</a></div>';
+echo'</div>';
+require ('../incfiles/end.php');
